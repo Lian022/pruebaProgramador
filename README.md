@@ -83,25 +83,15 @@ El archivo `activo/models.py` contiene la definición de los modelos para maneja
 
 Para usar los modelos Django:
 
-1. **Instalar Django:**
+1. **Instalar Django y Psycopg2-binary:**
 ```bash
-pip install django
+pip install django psycopg2-binary
 ```
 
 2. **Realizar migraciones:**
 ```bash
 python manage.py makemigrations
 python manage.py migrate
-```
-
-3. **Crear superusuario (opcional):**
-```bash
-python manage.py createsuperuser
-```
-
-4. **Ejecutar el servidor de desarrollo:**
-```bash
-python manage.py runserver
 ```
 
 ---
